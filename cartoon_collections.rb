@@ -20,7 +20,7 @@ def find_the_cheese(array)
   cheese_array = ["cheddar", "gouda", "camembert"]
   
   array.detect do |cheese_detecter|
-    cheese_array.include?(cheese_detecter)
+    cheese_array.detect {|ele| ele == cheese_detecter}
   end 
 end 
 
