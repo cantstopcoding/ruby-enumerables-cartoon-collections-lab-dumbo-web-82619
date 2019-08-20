@@ -19,8 +19,8 @@ def find_the_cheese(array)
   # Your code here
   cheese_array = %w[cheddar gouda camembert]
   
-  array.detect do |possi|
-    
+  array.detect do |potential|
+    cheese_array.detect {cheese}
   end 
 end 
 
