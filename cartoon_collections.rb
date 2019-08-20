@@ -17,6 +17,10 @@ end
 
 def find_the_cheese(array)
   # Your code here
-  cheese_array = ["cheddar", "gouda", ]
+  cheese_array = ["cheddar", "gouda", "camembert"]
+  
+  array.detect do |cheese?|
+    
+  end 
 end 
 
